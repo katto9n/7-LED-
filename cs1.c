@@ -34,6 +34,7 @@ void getNumber(int number) {
 
         }
     }
+	//select output
     LATBbits.LATB7 = 1;
     asm("nop");
     asm("nop");
